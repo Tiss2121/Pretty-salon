@@ -10,6 +10,7 @@ const navLinks = [
   { label: "Hair Styling", href: "/hair-styling-minneapolis" },
   { label: "Laser Removal", href: "/laser-hair-removal-minneapolis" },
   { label: "Uptown", href: "/uptown-hair-district-salon-minneapolis" },
+  { label: "Blog", href: "/blog" },
 ];
 
 export default function Header() {
