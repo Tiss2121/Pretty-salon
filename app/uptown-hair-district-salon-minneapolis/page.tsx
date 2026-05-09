@@ -5,11 +5,11 @@ export const metadata: Metadata = {
   title: "Uptown Hair District Salon Minneapolis | Pretty Palace Salon & Spa",
   description:
     "Pretty Palace Salon & Spa is located in the Uptown Hair District of Minneapolis — the city's most vibrant beauty neighborhood. Expert hair, spa & laser services near you.",
-  alternates: { canonical: "https://www.prettypalacesalonspa.com/uptown-hair-district-salon-minneapolis" },
+  alternates: { canonical: "https://prettypalacesalonspa.com/uptown-hair-district-salon-minneapolis" },
   openGraph: {
     title: "Uptown Hair District Salon Minneapolis | Pretty Palace",
     description: "Minneapolis's premier Uptown hair salon. Located in the heart of the Uptown Hair District — expert cuts, color, styling & spa services.",
-    url: "https://www.prettypalacesalonspa.com/uptown-hair-district-salon-minneapolis",
+    url: "https://prettypalacesalonspa.com/uptown-hair-district-salon-minneapolis",
   },
 };
 
@@ -17,7 +17,7 @@ const schema = {
   "@context": "https://schema.org",
   "@type": "HairSalon",
   name: "Pretty Palace Salon & Spa — Uptown Minneapolis",
-  url: "https://www.prettypalacesalonspa.com/uptown-hair-district-salon-minneapolis",
+  url: "https://prettypalacesalonspa.com/uptown-hair-district-salon-minneapolis",
   telephone: "+16120000000",
   description: "Premier hair salon in the Uptown Hair District of Minneapolis. Expert cuts, color, styling, laser hair removal, and hair restoration in the heart of Uptown.",
   address: {

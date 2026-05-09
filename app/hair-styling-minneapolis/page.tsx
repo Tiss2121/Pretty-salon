@@ -5,11 +5,11 @@ export const metadata: Metadata = {
   title: "Hair Styling Minneapolis | Pretty Palace Salon & Spa",
   description:
     "Professional hair styling in Minneapolis at Pretty Palace Salon & Spa. Blowouts, updos, bridal styling, special occasion & everyday styling by expert Minneapolis stylists.",
-  alternates: { canonical: "https://www.prettypalacesalonspa.com/hair-styling-minneapolis" },
+  alternates: { canonical: "https://prettypalacesalonspa.com/hair-styling-minneapolis" },
   openGraph: {
     title: "Hair Styling Minneapolis | Pretty Palace Salon & Spa",
     description: "Expert hair styling in Minneapolis — blowouts, updos, bridal, special occasion & everyday looks by Pretty Palace's licensed stylists.",
-    url: "https://www.prettypalacesalonspa.com/hair-styling-minneapolis",
+    url: "https://prettypalacesalonspa.com/hair-styling-minneapolis",
   },
 };
 
@@ -21,7 +21,7 @@ const schema = {
   provider: {
     "@type": "HairSalon",
     name: "Pretty Palace Salon & Spa",
-    url: "https://www.prettypalacesalonspa.com",
+    url: "https://prettypalacesalonspa.com",
     telephone: "+16120000000",
     address: {
       "@type": "PostalAddress",

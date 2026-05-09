@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   title: "Erotic Services in Minneapolis: What Exists, What's Legal and Where to Go",
   description:
     "A clear-eyed guide to erotic services in Minneapolis — sensual massage, adult entertainment, escort services, and sexual wellness. What's legal, what to avoid, and where quality actually exists.",
-  alternates: { canonical: "https://www.prettypalacesalonspa.com/blog/erotic-services-minneapolis" },
+  alternates: { canonical: "https://prettypalacesalonspa.com/blog/erotic-services-minneapolis" },
   openGraph: {
     title: "Erotic Services in Minneapolis: What Exists, What's Legal and Where to Go",
     description: "The full landscape of erotic services in Minneapolis — what's legal, what to avoid, and where quality actually exists.",
-    url: "https://www.prettypalacesalonspa.com/blog/erotic-services-minneapolis",
+    url: "https://prettypalacesalonspa.com/blog/erotic-services-minneapolis",
   },
 };
 
@@ -19,8 +19,8 @@ const schema = {
   "@type": "Article",
   headline: "Erotic Services in Minneapolis: What Exists, What's Legal and Where to Go",
   description: "A clear guide to the full landscape of erotic services in Minneapolis — sensual massage, adult entertainment, sexual wellness.",
-  url: "https://www.prettypalacesalonspa.com/blog/erotic-services-minneapolis",
-  publisher: { "@type": "Organization", name: "Pretty Palace Salon & Spa", url: "https://www.prettypalacesalonspa.com" },
+  url: "https://prettypalacesalonspa.com/blog/erotic-services-minneapolis",
+  publisher: { "@type": "Organization", name: "Pretty Palace Salon & Spa", url: "https://prettypalacesalonspa.com" },
 };
 
 export default function ArticlePage() {

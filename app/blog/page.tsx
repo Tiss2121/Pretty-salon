@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   title: "Blog — Minneapolis Spa & Wellness Guide | Pretty Palace Salon & Spa",
   description:
     "Expert guides on massage, sensual wellness, and spa experiences in Minneapolis. Discover the best studios, what's legal, and how to book the right experience.",
-  alternates: { canonical: "https://www.prettypalacesalonspa.com/blog" },
+  alternates: { canonical: "https://prettypalacesalonspa.com/blog" },
   openGraph: {
     title: "Blog — Minneapolis Spa & Wellness Guide",
     description: "Expert spa and wellness guides for Minneapolis — from the team at Pretty Palace Salon & Spa.",
-    url: "https://www.prettypalacesalonspa.com/blog",
+    url: "https://prettypalacesalonspa.com/blog",
   },
 };
 
@@ -18,11 +18,11 @@ const schema = {
   "@context": "https://schema.org",
   "@type": "Blog",
   name: "Pretty Palace Salon & Spa Blog — Minneapolis Wellness Guide",
-  url: "https://www.prettypalacesalonspa.com/blog",
+  url: "https://prettypalacesalonspa.com/blog",
   publisher: {
     "@type": "Organization",
     name: "Pretty Palace Salon & Spa",
-    url: "https://www.prettypalacesalonspa.com",
+    url: "https://prettypalacesalonspa.com",
   },
 };
 

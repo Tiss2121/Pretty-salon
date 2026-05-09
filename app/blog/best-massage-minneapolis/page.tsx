@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   title: "Best Massage in Minneapolis: 6 Studios Worth Your Time and Money in 2025",
   description:
     "Looking for the best massage in Minneapolis? From Sabai Body Temple to the Four Seasons Spa, here are the studios that actually deliver — ranked by experience type.",
-  alternates: { canonical: "https://www.prettypalacesalonspa.com/blog/best-massage-minneapolis" },
+  alternates: { canonical: "https://prettypalacesalonspa.com/blog/best-massage-minneapolis" },
   openGraph: {
     title: "Best Massage in Minneapolis: 6 Studios Worth Your Time and Money in 2025",
     description: "The Minneapolis massage studios that actually deliver — ranked by experience type, from boutique to luxury.",
-    url: "https://www.prettypalacesalonspa.com/blog/best-massage-minneapolis",
+    url: "https://prettypalacesalonspa.com/blog/best-massage-minneapolis",
   },
 };
 
@@ -19,8 +19,8 @@ const schema = {
   "@type": "Article",
   headline: "Best Massage in Minneapolis: 6 Studios Worth Your Time and Money in 2025",
   description: "The best massage studios in Minneapolis ranked by experience type — from Sabai Body Temple to the Four Seasons Spa.",
-  url: "https://www.prettypalacesalonspa.com/blog/best-massage-minneapolis",
-  publisher: { "@type": "Organization", name: "Pretty Palace Salon & Spa", url: "https://www.prettypalacesalonspa.com" },
+  url: "https://prettypalacesalonspa.com/blog/best-massage-minneapolis",
+  publisher: { "@type": "Organization", name: "Pretty Palace Salon & Spa", url: "https://prettypalacesalonspa.com" },
 };
 
 const studios = [

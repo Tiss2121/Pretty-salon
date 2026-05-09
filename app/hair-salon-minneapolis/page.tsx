@@ -5,11 +5,11 @@ export const metadata: Metadata = {
   title: "Best Hair Salon Minneapolis MN | Pretty Palace Salon & Spa",
   description:
     "Looking for the best hair salon in Minneapolis? Pretty Palace Salon & Spa in Uptown offers expert cuts, color, styling & spa treatments. Rated 4.9★ by 187+ clients.",
-  alternates: { canonical: "https://www.prettypalacesalonspa.com/hair-salon-minneapolis" },
+  alternates: { canonical: "https://prettypalacesalonspa.com/hair-salon-minneapolis" },
   openGraph: {
     title: "Best Hair Salon Minneapolis MN | Pretty Palace",
     description: "Minneapolis's #1 rated hair salon in the Uptown district. Expert cuts, color & styling by licensed professionals.",
-    url: "https://www.prettypalacesalonspa.com/hair-salon-minneapolis",
+    url: "https://prettypalacesalonspa.com/hair-salon-minneapolis",
   },
 };
 
@@ -17,7 +17,7 @@ const schema = {
   "@context": "https://schema.org",
   "@type": "HairSalon",
   name: "Pretty Palace Salon & Spa — Minneapolis Hair Salon",
-  url: "https://www.prettypalacesalonspa.com/hair-salon-minneapolis",
+  url: "https://prettypalacesalonspa.com/hair-salon-minneapolis",
   telephone: "+16120000000",
   description: "Best hair salon in Minneapolis, MN. Located in the Uptown district, offering expert haircuts, hair coloring, balayage, keratin treatments, and styling services.",
   address: {

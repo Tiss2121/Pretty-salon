@@ -9,7 +9,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/api/", "/_next/", "/static/"],
       },
     ],
-    sitemap: "https://www.prettypalacesalonspa.com/sitemap.xml",
-    host: "https://www.prettypalacesalonspa.com",
+    sitemap: "https://prettypalacesalonspa.com/sitemap.xml",
+    host: "https://prettypalacesalonspa.com",
   };
 }

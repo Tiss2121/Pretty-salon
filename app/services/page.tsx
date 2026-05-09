@@ -5,11 +5,11 @@ export const metadata: Metadata = {
   title: "Hair Salon Services Minneapolis | Pretty Palace Salon & Spa",
   description:
     "Full menu of hair salon & spa services in Minneapolis — cuts, color, balayage, keratin, laser hair removal, hair restoration, and spa treatments. Book today.",
-  alternates: { canonical: "https://www.prettypalacesalonspa.com/services" },
+  alternates: { canonical: "https://prettypalacesalonspa.com/services" },
   openGraph: {
     title: "Hair Salon Services Minneapolis | Pretty Palace Salon & Spa",
     description: "Complete service menu at Pretty Palace Salon & Spa — Minneapolis's premier hair salon in Uptown.",
-    url: "https://www.prettypalacesalonspa.com/services",
+    url: "https://prettypalacesalonspa.com/services",
   },
 };
 
@@ -17,7 +17,7 @@ const schema = {
   "@context": "https://schema.org",
   "@type": "HairSalon",
   name: "Pretty Palace Salon & Spa",
-  url: "https://www.prettypalacesalonspa.com",
+  url: "https://prettypalacesalonspa.com",
   address: {
     "@type": "PostalAddress",
     addressLocality: "Minneapolis",

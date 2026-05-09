@@ -5,11 +5,11 @@ export const metadata: Metadata = {
   title: "Hair Transplant & Restoration Minneapolis | Pretty Palace Salon & Spa",
   description:
     "Non-surgical hair restoration, extensions & hair transplant consultation in Minneapolis. Pretty Palace Salon & Spa — natural-looking solutions for thinning hair.",
-  alternates: { canonical: "https://www.prettypalacesalonspa.com/hair-transplant-minneapolis" },
+  alternates: { canonical: "https://prettypalacesalonspa.com/hair-transplant-minneapolis" },
   openGraph: {
     title: "Hair Transplant & Restoration Minneapolis | Pretty Palace",
     description: "Non-surgical hair restoration and extension solutions in Minneapolis. Natural fullness and confidence restored.",
-    url: "https://www.prettypalacesalonspa.com/hair-transplant-minneapolis",
+    url: "https://prettypalacesalonspa.com/hair-transplant-minneapolis",
   },
 };
 
@@ -21,7 +21,7 @@ const schema = {
   provider: {
     "@type": "HairSalon",
     name: "Pretty Palace Salon & Spa",
-    url: "https://www.prettypalacesalonspa.com",
+    url: "https://prettypalacesalonspa.com",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Minneapolis",

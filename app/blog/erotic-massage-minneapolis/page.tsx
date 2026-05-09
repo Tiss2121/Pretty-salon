@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   title: "Erotic Massage in Minneapolis: What You Need to Know Before You Book",
   description:
     "Looking for erotic massage in Minneapolis? Discover what sensual massage really means in the Twin Cities, where the best licensed studios are, and how to avoid legal risks.",
-  alternates: { canonical: "https://www.prettypalacesalonspa.com/blog/erotic-massage-minneapolis" },
+  alternates: { canonical: "https://prettypalacesalonspa.com/blog/erotic-massage-minneapolis" },
   openGraph: {
     title: "Erotic Massage in Minneapolis: What You Need to Know Before You Book",
     description: "What sensual massage really means in Minneapolis, where the best licensed studios are, and how to avoid legal risks.",
-    url: "https://www.prettypalacesalonspa.com/blog/erotic-massage-minneapolis",
+    url: "https://prettypalacesalonspa.com/blog/erotic-massage-minneapolis",
   },
 };
 
@@ -19,9 +19,9 @@ const schema = {
   "@type": "Article",
   headline: "Erotic Massage in Minneapolis: What You Need to Know Before You Book",
   description: "A guide to sensual massage in Minneapolis — what's legal, what to expect, and the best licensed studios.",
-  url: "https://www.prettypalacesalonspa.com/blog/erotic-massage-minneapolis",
-  publisher: { "@type": "Organization", name: "Pretty Palace Salon & Spa", url: "https://www.prettypalacesalonspa.com" },
-  mainEntityOfPage: "https://www.prettypalacesalonspa.com/blog/erotic-massage-minneapolis",
+  url: "https://prettypalacesalonspa.com/blog/erotic-massage-minneapolis",
+  publisher: { "@type": "Organization", name: "Pretty Palace Salon & Spa", url: "https://prettypalacesalonspa.com" },
+  mainEntityOfPage: "https://prettypalacesalonspa.com/blog/erotic-massage-minneapolis",
 };
 
 export default function ArticlePage() {

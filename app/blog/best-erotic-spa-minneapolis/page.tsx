@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   title: "Best Erotic Spa in Minneapolis: 5 Sensual and Luxurious Experiences Worth Booking",
   description:
     "Discover the best erotic spa experiences in Minneapolis — sensual couples treatments, immersive bodywork, and luxury wellness. All legal, all licensed, all worth it.",
-  alternates: { canonical: "https://www.prettypalacesalonspa.com/blog/best-erotic-spa-minneapolis" },
+  alternates: { canonical: "https://prettypalacesalonspa.com/blog/best-erotic-spa-minneapolis" },
   openGraph: {
     title: "Best Erotic Spa in Minneapolis: 5 Sensual and Luxurious Experiences Worth Booking",
     description: "The best sensual and erotic spa experiences in Minneapolis — legal, licensed, and worth every dollar.",
-    url: "https://www.prettypalacesalonspa.com/blog/best-erotic-spa-minneapolis",
+    url: "https://prettypalacesalonspa.com/blog/best-erotic-spa-minneapolis",
   },
 };
 
@@ -19,8 +19,8 @@ const schema = {
   "@type": "Article",
   headline: "Best Erotic Spa in Minneapolis: 5 Sensual and Luxurious Experiences Worth Booking",
   description: "The best erotic and sensual spa experiences in Minneapolis that operate within a fully legal, licensed framework.",
-  url: "https://www.prettypalacesalonspa.com/blog/best-erotic-spa-minneapolis",
-  publisher: { "@type": "Organization", name: "Pretty Palace Salon & Spa", url: "https://www.prettypalacesalonspa.com" },
+  url: "https://prettypalacesalonspa.com/blog/best-erotic-spa-minneapolis",
+  publisher: { "@type": "Organization", name: "Pretty Palace Salon & Spa", url: "https://prettypalacesalonspa.com" },
 };
 
 const spas = [

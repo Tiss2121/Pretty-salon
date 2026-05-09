@@ -5,11 +5,11 @@ export const metadata: Metadata = {
   title: "Laser Hair Removal Minneapolis | Pretty Palace Salon & Spa",
   description:
     "Professional laser hair removal in Minneapolis at Pretty Palace Salon & Spa. FDA-cleared technology for permanent hair reduction on legs, bikini, underarms & face. Book today.",
-  alternates: { canonical: "https://www.prettypalacesalonspa.com/laser-hair-removal-minneapolis" },
+  alternates: { canonical: "https://prettypalacesalonspa.com/laser-hair-removal-minneapolis" },
   openGraph: {
     title: "Laser Hair Removal Minneapolis | Pretty Palace Salon & Spa",
     description: "FDA-cleared laser hair removal in Minneapolis. Safe for all skin types. Legs, bikini, underarms, face & more. Pretty Palace Uptown Salon.",
-    url: "https://www.prettypalacesalonspa.com/laser-hair-removal-minneapolis",
+    url: "https://prettypalacesalonspa.com/laser-hair-removal-minneapolis",
   },
 };
 
@@ -21,7 +21,7 @@ const schema = {
   provider: {
     "@type": "HairSalon",
     name: "Pretty Palace Salon & Spa",
-    url: "https://www.prettypalacesalonspa.com",
+    url: "https://prettypalacesalonspa.com",
     telephone: "+16120000000",
     address: {
       "@type": "PostalAddress",

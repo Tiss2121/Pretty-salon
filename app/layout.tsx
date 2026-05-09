@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.prettypalacesalonspa.com"),
+  metadataBase: new URL("https://prettypalacesalonspa.com"),
   title: {
     default: "Pretty Palace Salon & Spa | Hair Salon Minneapolis",
     template: "%s | Pretty Palace Salon & Spa Minneapolis",

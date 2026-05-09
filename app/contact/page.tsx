@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   title: "Book an Appointment | Pretty Palace Salon & Spa Minneapolis",
   description:
     "Book your appointment at Pretty Palace Salon & Spa in Uptown Minneapolis. Hair cuts, color, styling, laser hair removal & more. Contact us today.",
-  alternates: { canonical: "https://www.prettypalacesalonspa.com/contact" },
+  alternates: { canonical: "https://prettypalacesalonspa.com/contact" },
   openGraph: {
     title: "Book an Appointment | Pretty Palace Salon & Spa Minneapolis",
     description: "Schedule your visit at Pretty Palace Salon & Spa — Uptown Minneapolis's premier hair salon & spa.",
-    url: "https://www.prettypalacesalonspa.com/contact",
+    url: "https://prettypalacesalonspa.com/contact",
   },
 };
 
@@ -18,7 +18,7 @@ const schema = {
   "@context": "https://schema.org",
   "@type": "ContactPage",
   name: "Book an Appointment — Pretty Palace Salon & Spa",
-  url: "https://www.prettypalacesalonspa.com/contact",
+  url: "https://prettypalacesalonspa.com/contact",
   mainEntity: {
     "@type": "HairSalon",
     name: "Pretty Palace Salon & Spa",
