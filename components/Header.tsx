@@ -34,7 +34,7 @@ export default function Header() {
             </Link>
           ))}
           <Link
-            href="/services"
+            href="/contact"
             className="ml-2 px-5 py-2.5 text-xs font-bold uppercase tracking-widest bg-[#2C1A1D] text-white rounded hover:bg-[#C9A96E] transition-colors"
           >
             Book Now
@@ -67,7 +67,7 @@ export default function Header() {
             </Link>
           ))}
           <Link
-            href="/services"
+            href="/contact"
             onClick={() => setOpen(false)}
             className="mt-2 px-5 py-3 text-sm font-bold uppercase tracking-widest bg-[#2C1A1D] text-white rounded text-center hover:bg-[#C9A96E] transition-colors"
           >

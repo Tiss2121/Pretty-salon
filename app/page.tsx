@@ -80,7 +80,7 @@ export default function HomePage() {
             Expert haircuts, vibrant color, laser hair removal, and hair restoration — all under one roof in the heart of Uptown Minneapolis.
           </p>
           <div className="flex flex-wrap gap-4">
-            <Link href="/services" className="px-8 py-3.5 bg-[#C9A96E] text-white text-sm font-bold uppercase tracking-wider rounded hover:bg-[#b8923a] transition-colors">
+            <Link href="/contact" className="px-8 py-3.5 bg-[#C9A96E] text-white text-sm font-bold uppercase tracking-wider rounded hover:bg-[#b8923a] transition-colors">
               Book Appointment
             </Link>
             <Link href="/hair-salon-minneapolis" className="px-8 py-3.5 border border-white/30 text-white text-sm font-bold uppercase tracking-wider rounded hover:bg-white/10 transition-colors">
@@ -194,9 +194,14 @@ export default function HomePage() {
           <p className="text-white/85 text-sm mb-8 leading-relaxed">
             Book your appointment at Pretty Palace Salon & Spa — Minneapolis&apos;s most-loved hair salon in Uptown.
           </p>
-          <Link href="/services" className="inline-block px-10 py-4 bg-white text-[#2C1A1D] text-sm font-bold uppercase tracking-wider rounded hover:bg-[#2C1A1D] hover:text-white transition-colors">
-            Book Appointment
-          </Link>
+          <div className="flex flex-wrap gap-4 justify-center">
+            <Link href="/contact" className="inline-block px-10 py-4 bg-white text-[#2C1A1D] text-sm font-bold uppercase tracking-wider rounded hover:bg-[#2C1A1D] hover:text-white transition-colors">
+              Book Appointment
+            </Link>
+            <Link href="/services" className="inline-block px-10 py-4 border-2 border-white text-white text-sm font-bold uppercase tracking-wider rounded hover:bg-white hover:text-[#2C1A1D] transition-colors">
+              Our Services
+            </Link>
+          </div>
         </div>
       </section>
 

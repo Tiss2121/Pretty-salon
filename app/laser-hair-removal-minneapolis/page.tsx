@@ -89,9 +89,9 @@ export default function LaserHairRemovalMinneapolisPage() {
             Say goodbye to shaving and waxing. Our FDA-cleared laser hair removal treatments deliver permanent hair reduction for Minneapolis clients — safe for all skin types, with minimal discomfort and lasting results.
           </p>
           <div className="flex flex-wrap gap-4">
-            <a href="tel:+16120000000" className="px-7 py-3 bg-[#C9A96E] text-white text-sm font-bold uppercase tracking-wider rounded hover:bg-[#b8923a] transition-colors">
+            <Link href="/contact" className="px-7 py-3 bg-[#C9A96E] text-white text-sm font-bold uppercase tracking-wider rounded hover:bg-[#b8923a] transition-colors">
               Free Consultation
-            </a>
+            </Link>
             <Link href="/services" className="px-7 py-3 border border-white/30 text-white text-sm font-bold uppercase tracking-wider rounded hover:bg-white/10 transition-colors">
               View All Services
             </Link>
@@ -168,11 +168,11 @@ export default function LaserHairRemovalMinneapolisPage() {
           <h2 className="font-serif text-2xl md:text-3xl text-white mb-3">Book Your Free Laser Consultation in Minneapolis</h2>
           <p className="text-white/70 text-sm mb-6">No obligation. Our certified technician will assess your skin type and recommend the ideal treatment plan.</p>
           <div className="flex flex-wrap gap-4 justify-center">
-            <a href="tel:+16120000000" className="px-10 py-3.5 bg-[#C9A96E] text-white text-sm font-bold uppercase tracking-wider rounded hover:bg-[#b8923a] transition-colors">
-              Call (612) 000-0000
-            </a>
+            <Link href="/contact" className="px-10 py-3.5 bg-[#C9A96E] text-white text-sm font-bold uppercase tracking-wider rounded hover:bg-[#b8923a] transition-colors">
+              Book Consultation
+            </Link>
             <Link href="/services" className="px-10 py-3.5 border border-white/30 text-white text-sm font-bold uppercase tracking-wider rounded hover:bg-white/10 transition-colors">
-              All Services
+              Our Services
             </Link>
           </div>
         </div>

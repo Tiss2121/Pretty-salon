@@ -64,8 +64,8 @@ export default function HairSalonMinneapolisPage() {
             Rated 4.9★ by over 187 Minneapolis clients, Pretty Palace Salon & Spa is your Uptown destination for precision haircuts, stunning color, and transformative hair treatments. Our licensed stylists bring artistry and expertise to every appointment.
           </p>
           <div className="flex flex-wrap gap-4">
-            <Link href="/services" className="px-7 py-3 bg-[#C9A96E] text-white text-sm font-bold uppercase tracking-wider rounded hover:bg-[#b8923a] transition-colors">
-              View All Services
+            <Link href="/contact" className="px-7 py-3 bg-[#C9A96E] text-white text-sm font-bold uppercase tracking-wider rounded hover:bg-[#b8923a] transition-colors">
+              Book Appointment
             </Link>
             <a href="tel:+16120000000" className="px-7 py-3 border border-white/30 text-white text-sm font-bold uppercase tracking-wider rounded hover:bg-white/10 transition-colors">
               Call (612) 000-0000

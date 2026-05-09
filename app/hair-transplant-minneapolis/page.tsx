@@ -76,9 +76,9 @@ export default function HairTransplantMinneapolisPage() {
             Restore fullness, length, and confidence with non-surgical hair restoration solutions at Pretty Palace Salon & Spa. From extensions to scalp treatments, we offer natural-looking results for Minneapolis clients experiencing hair loss or thinning.
           </p>
           <div className="flex flex-wrap gap-4">
-            <a href="tel:+16120000000" className="px-7 py-3 bg-[#C9A96E] text-white text-sm font-bold uppercase tracking-wider rounded hover:bg-[#b8923a] transition-colors">
+            <Link href="/contact" className="px-7 py-3 bg-[#C9A96E] text-white text-sm font-bold uppercase tracking-wider rounded hover:bg-[#b8923a] transition-colors">
               Free Consultation
-            </a>
+            </Link>
             <Link href="/services" className="px-7 py-3 border border-white/30 text-white text-sm font-bold uppercase tracking-wider rounded hover:bg-white/10 transition-colors">
               All Services
             </Link>
@@ -159,9 +159,14 @@ export default function HairTransplantMinneapolisPage() {
         <div className="max-w-2xl mx-auto px-6">
           <h2 className="font-serif text-2xl md:text-3xl text-white mb-3">Start Your Hair Restoration Journey Today</h2>
           <p className="text-white/85 text-sm mb-6">Free consultations available at our Uptown Minneapolis salon. No pressure, no obligation.</p>
-          <a href="tel:+16120000000" className="inline-block px-10 py-3.5 bg-white text-[#2C1A1D] text-sm font-bold uppercase tracking-wider rounded hover:bg-[#2C1A1D] hover:text-white transition-colors">
-            Call (612) 000-0000
-          </a>
+          <div className="flex flex-wrap gap-4 justify-center">
+            <Link href="/contact" className="inline-block px-10 py-3.5 bg-white text-[#2C1A1D] text-sm font-bold uppercase tracking-wider rounded hover:bg-[#2C1A1D] hover:text-white transition-colors">
+              Book Consultation
+            </Link>
+            <Link href="/services" className="inline-block px-10 py-3.5 border-2 border-white text-white text-sm font-bold uppercase tracking-wider rounded hover:bg-white hover:text-[#2C1A1D] transition-colors">
+              Our Services
+            </Link>
+          </div>
         </div>
       </section>
     </>

@@ -85,9 +85,9 @@ export default function UptownHairDistrictPage() {
             In the heart of Minneapolis&apos;s iconic Uptown district, Pretty Palace Salon & Spa is your neighborhood destination for expert hair, beauty, and spa services. We&apos;re proudly local, expertly staffed, and passionate about making you look and feel your best.
           </p>
           <div className="flex flex-wrap gap-4">
-            <a href="tel:+16120000000" className="px-7 py-3 bg-[#C9A96E] text-white text-sm font-bold uppercase tracking-wider rounded hover:bg-[#b8923a] transition-colors">
+            <Link href="/contact" className="px-7 py-3 bg-[#C9A96E] text-white text-sm font-bold uppercase tracking-wider rounded hover:bg-[#b8923a] transition-colors">
               Book Appointment
-            </a>
+            </Link>
             <Link href="/services" className="px-7 py-3 border border-white/30 text-white text-sm font-bold uppercase tracking-wider rounded hover:bg-white/10 transition-colors">
               Our Services
             </Link>
@@ -218,9 +218,14 @@ export default function UptownHairDistrictPage() {
         <div className="max-w-2xl mx-auto px-6">
           <h2 className="font-serif text-2xl text-white mb-3">Visit Us in Uptown Minneapolis Today</h2>
           <p className="text-white/70 text-sm mb-6">Walk-ins welcome. Appointments recommended for specialty services.</p>
-          <a href="tel:+16120000000" className="inline-block px-10 py-3.5 bg-[#C9A96E] text-white text-sm font-bold uppercase tracking-wider rounded hover:bg-[#b8923a] transition-colors">
-            Call (612) 000-0000
-          </a>
+          <div className="flex flex-wrap gap-4 justify-center">
+            <Link href="/contact" className="inline-block px-10 py-3.5 bg-[#C9A96E] text-white text-sm font-bold uppercase tracking-wider rounded hover:bg-[#b8923a] transition-colors">
+              Book Appointment
+            </Link>
+            <Link href="/services" className="inline-block px-10 py-3.5 border border-white/30 text-white text-sm font-bold uppercase tracking-wider rounded hover:bg-white/10 transition-colors">
+              Our Services
+            </Link>
+          </div>
         </div>
       </section>
     </>
