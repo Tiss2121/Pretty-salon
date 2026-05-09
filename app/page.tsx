@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Pretty Palace Salon & Spa | #1 Hair Salon Minneapolis",
   description:
     "Pretty Palace Salon & Spa — Minneapolis's premier hair salon in Uptown. Cuts, color, styling, laser hair removal & hair restoration. Book your appointment today.",
-  alternates: { canonical: "https://prettypalacesalonspa.com/" },
+  alternates: { canonical: "https://prettypalacesalonspa.com" },
   openGraph: {
     title: "Pretty Palace Salon & Spa | #1 Hair Salon Minneapolis",
     description: "Minneapolis's premier hair salon in the Uptown district. Expert cuts, color, styling, laser treatments & restoration.",
