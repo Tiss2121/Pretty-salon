@@ -20,7 +20,6 @@ export const metadata: Metadata = {
     siteName: "Pretty Palace Salon & Spa",
   },
   twitter: { card: "summary_large_image" },
-  alternates: { canonical: "/" },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
