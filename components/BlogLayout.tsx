@@ -29,6 +29,41 @@ export const allArticles = [
     keyword: "best erotic spa minneapolis",
     readTime: "6 min",
   },
+  {
+    slug: "sensual-massage-minneapolis-luxury-wellness",
+    title: "Sensual Massage in Minneapolis: Why Luxury Wellness Is Growing in MN",
+    excerpt: "Le massage sensuel et le bien-être de luxe explosent à Minneapolis en 2026. Spas, tendances, lieux incontournables et ce que ça dit de la culture wellness MN.",
+    keyword: "sensual massage minneapolis",
+    readTime: "7 min",
+  },
+  {
+    slug: "laser-hair-removal-minneapolis",
+    title: "Laser Hair Removal Minneapolis: Trends, Prices and Beauty Benefits in 2026",
+    excerpt: "Prix par zone, meilleures cliniques et tendances beauté : tout sur l'épilation laser à Minneapolis en 2026 et pourquoi c'est devenu un investissement incontournable.",
+    keyword: "laser hair removal minneapolis",
+    readTime: "6 min",
+  },
+  {
+    slug: "full-body-massage-self-care-minneapolis",
+    title: "Full Body Massage and Self-Care Trends in Minneapolis in 2026",
+    excerpt: "Les nouvelles tendances du massage corps entier et du self-care à Minneapolis en 2026 — modalités, spas, prix et ce que dit la science sur le soin corporel régulier.",
+    keyword: "full body massage minneapolis",
+    readTime: "7 min",
+  },
+  {
+    slug: "content-creators-beauty-personal-branding",
+    title: "Why Modern Content Creators Invest in Beauty and Personal Branding in 2026",
+    excerpt: "En 2026, les créateurs de contenu qui réussissent investissent massivement dans leur image et leur beauté. Voici pourquoi c'est devenu une stratégie business, pas un luxe.",
+    keyword: "content creators beauty personal branding",
+    readTime: "6 min",
+  },
+  {
+    slug: "premium-content-platforms-subscription-creators",
+    title: "Premium Content Platforms and the Rise of Subscription-Based Creators in 2026",
+    excerpt: "Comment les plateformes d'abonnement ont transformé l'économie des créateurs en 2026 : chiffres, stratégies et ce que les top creators font différemment pour fidéliser.",
+    keyword: "premium content platforms creators",
+    readTime: "7 min",
+  },
 ];
 
 export const internalLinks = [
@@ -48,7 +83,7 @@ interface BlogLayoutProps {
 }
 
 export default function BlogLayout({ children, currentSlug, title, keyword, readTime }: BlogLayoutProps) {
-  const related = allArticles.filter((a) => a.slug !== currentSlug);
+  const related = allArticles.filter((a) => a.slug !== currentSlug).slice(0, 4);
 
   return (
     <>
